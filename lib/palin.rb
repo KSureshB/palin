@@ -2,7 +2,6 @@ require "palin/version"
 
 module Palin
   # Your code goes here...
-  	class Palindrom
 		def reverse(word_arr)
   			reverse = []
   			index = word_arr.length
@@ -22,5 +21,4 @@ module Palin
 			end
   
 		end
-	end
 end
